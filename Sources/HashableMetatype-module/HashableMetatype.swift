@@ -6,7 +6,7 @@
 //
 
 ///
-public struct HashableMetatype: Hashable {
+public struct HashableMetatype: Hashable, Sendable {
     
     ///
     private let objectIdentifier: ObjectIdentifier
